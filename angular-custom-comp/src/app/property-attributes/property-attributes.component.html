@@ -1,0 +1,9 @@
+<div class="prop">
+  <div class="flex-row">
+    <h3>{{title}}</h3>
+  </div>
+  <div class="flex-row p-grid" *ngFor="let attr of attrProperties">
+      <div class="p-col align-right">{{attr.display}}:</div>
+      <div class="p-col align-left">Value</div>
+  </div>
+</div>

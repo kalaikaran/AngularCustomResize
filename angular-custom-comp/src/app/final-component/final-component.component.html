@@ -1,0 +1,27 @@
+<div class="split-example ex-b">
+    <as-split [direction]="orientVertical" gutterSize="1">
+        <as-split-area [size]="60">
+          <p>right</p>
+        </as-split-area>
+        <as-split-area [size]="40">
+          <as-split [direction]="orientHorizontal" gutterSize="1">
+            <as-split-area [size]="6">
+              <p>Image</p>
+            </as-split-area>
+            <as-split-area [size]="94">
+              <as-split [direction]="orientHorizontal" gutterSize="1">
+                <as-split-area  *ngFor="let data of datas">
+                  <app-property-attributes [attrProperties]="data.ar" [title]="data.title"></app-property-attributes>
+                </as-split-area>
+              </as-split>
+            </as-split-area>
+          </as-split>
+        </as-split-area>
+    </as-split>
+</div>
+<!--<as-split [direction]="orientVertical" gutterSize="1">
+                <as-split-area [size]="20" *ngFor="let data of datas">
+                  <p>one</p>
+                  <app-property-attributes [attrProperties]="data.ar" [title]="data.title"></app-property-attributes>
+                </as-split-area>
+              </as-split>-->
