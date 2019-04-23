@@ -10,7 +10,7 @@ export class FinalComponentComponent implements OnInit {
   orientHorizontal: string= "vertical";
   datas: any[] = [
     {
-      title:"one",
+      title:"One",
       ar:[
         {
           display:"nameOne"
@@ -24,7 +24,7 @@ export class FinalComponentComponent implements OnInit {
       ]
     },
     {
-      title:"two",
+      title:"Two",
       ar:[
         {
           display:"anameOne"
@@ -38,7 +38,7 @@ export class FinalComponentComponent implements OnInit {
       ]
     },
     {
-      title:"three",
+      title:"Three",
       ar:[
         {
           display:"bnameOne"

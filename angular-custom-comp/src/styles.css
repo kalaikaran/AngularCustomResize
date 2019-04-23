@@ -149,7 +149,19 @@
 .align-right {
     text-align: right;
 }
-.as-split-gutter {
-    margin-left: 13px;
+.as-split-gutter, .left-margin {
+    margin-left: 40px;
+}
+.title {
+    font-weight: 600;
+    font-size: 23px;
+    padding: 5px;
+    color:gray;
+}
+.grey {
+    color:lightgray;
+}
+.padding-left-none {
+    padding-left: 0;
 }
 /*# sourceMappingURL=test.css.map */
